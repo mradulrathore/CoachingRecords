@@ -211,7 +211,7 @@ executeUpdate method execute sql statements that insert/update/delete data at th
 
     private void backbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backbtnActionPerformed
         // coding for opening record window
-        new insert().setVisible(false);
+        this.setVisible(false);
         new records().setVisible(true);
 }//GEN-LAST:event_backbtnActionPerformed
 

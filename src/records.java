@@ -289,7 +289,7 @@ public class records extends javax.swing.JFrame {
 
     private void addrebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addrebtnActionPerformed
         // coding for opening the add record window
-        new records().setVisible(false);
+        this.setVisible(false);
         new insert().setVisible(true);
 }//GEN-LAST:event_addrebtnActionPerformed
 
@@ -361,13 +361,13 @@ public class records extends javax.swing.JFrame {
 
     private void disbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disbtnActionPerformed
         // coding for opening display window
-        new records().setVisible(false);
+        this.setVisible(false);
         new Display().setVisible(true);
 }//GEN-LAST:event_disbtnActionPerformed
 
     private void dispallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dispallActionPerformed
         //coding for opening display all window
-        new records().setVisible(false);
+        this.setVisible(false);
         new DisplayAll().setVisible(true);
 }//GEN-LAST:event_dispallActionPerformed
 

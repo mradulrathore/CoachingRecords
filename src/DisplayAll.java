@@ -136,8 +136,8 @@ public class DisplayAll extends javax.swing.JFrame {
 
     private void backbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backbtnActionPerformed
         // coding for opening record window
+        this.setVisible(false);
         new records().setVisible(true);
-        new DisplayAll().setVisible(false);
 }//GEN-LAST:event_backbtnActionPerformed
 
     /**

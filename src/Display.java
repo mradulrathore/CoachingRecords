@@ -304,7 +304,7 @@ public class Display extends javax.swing.JFrame {
 
     private void backbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backbtnActionPerformed
         // coding for opening the record window 
-        new Display().setVisible(false);
+        this.setVisible(false);
         new records().setVisible(true);
 }//GEN-LAST:event_backbtnActionPerformed
 
