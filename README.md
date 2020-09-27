@@ -1,2 +1,2 @@
 # CoachingRecords
-It is a software developed to input coaching class students data like name, phno, grades etc using Java as a frontend and store and manipulate the data using mysql as a backend.
+Designed and developed a tool for storing and managing students’ data. It provides an intuitive and easy to use interface. With this tool, the management of coaching class students’ data becomes easy and efficient.
